@@ -1,0 +1,33 @@
+1. Script tag in which place.
+2. Box-sizing property.
+3. body tag by default margin and padding.
+4. Color:- https://flatuicolors.com/
+5. Icons:- https://fonts.google.com/icons
+6. Span tag inline vs div tag block (width an height).
+7. border vs outline.
+8. Css positioning topic. (parent relative, child absolute),sticky vs fixed
+9. overflow values like scroll,hidden
+10. z-index transparent issues.(position mentioned then z-index will work).
+11. Difference between innerText, innerHTML and value?
+12. Event Listeners explore like blur and focus for input tag.
+13. Instead of using then/catch for promise use await/async to get values fo resolved promise.
+14. Promise.resolve() is used to make async code to sync code.(the code will wait until promise gets resolved completely).
+15. Uniuely identifying each cell/sheet use uniue attribute(id or rowID or colId).
+16. Blob(Binary large object) is file like object used to store multimedia things like file,images,videos,etc.Thses could be extracted easily through urls. 
+
+
+
+
+// Imp. things to remember:
+a) To establish parent child relationship as graph ds was observed.So stored children[] in cellProps object and whenever parent cell data changes its corresponding children node/cells data also gets updated.
+b) Changing already set value -> hardcode cell value
+    - Remove Formula
+    - Remove Par-Child relationship
+    - update children cell values. 
+c) Directed cycle detection graph algo.
+    - Graph relation shown as cells have dependency to each other which are called as neighbour nodes.
+    - Algo:- Maintain two boolean arrays visited[] (for visiting diff. graph components) and dfsVis[] behaving as stack trace of recursion(during dfs visit mark krne ke liye , jaate huye True mark and aate huye False.)
+             If at any poistion if both visited[i] and dfsVis[i] gives True then it means yha pe pehle aa chuke hai and cycle detected.
+
+d) overflow: auto
+The auto value is similar to scroll , but it adds scrollbars only when necessary:             
